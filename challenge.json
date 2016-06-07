@@ -14,7 +14,8 @@
     "ja": "README_ja.md"
   },
   "excludes": [
-    "challenge.json"
+    "challenge.json",
+    "testcase2.js"
   ],
   "cli": [
     "nodejs",

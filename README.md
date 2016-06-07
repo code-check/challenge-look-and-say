@@ -1,11 +1,11 @@
 # Look and Say!
 
-この問題ではある規則にそった数列を生成する関数を作成してもらいます。
+This challenge is to make a function which returns a number according to some secret rule.
 
-この関数に1を渡すと、結果として「1」が返されます。
-この関数に2を渡すと、結果として「11」が返されます。
+Pass '1' to this function, it returns '1'.
+Pass '2' to this function, it returns '11'.
 
-以下、3から7までの入力に対する結果は以下の通りです。
+Pass '3' to '7' returns following.
 
 ```
 3=21
@@ -15,9 +15,10 @@
 7=13112221
 ```
 
-この数列の生成ルールを見つけ、その値を返す関数を実装し、その結果を標準出力に出力してください。
+Find the rule of this sequence and implement the function.
+(The result should be written to stdout.)
 
-使用可能な言語は
+You can use following languages.
 
 - NodeJS
 - Ruby
@@ -25,16 +26,15 @@
 - Go
 - Java
 
-のいずれかです。
+## Secret Test
+This challenge has 7 testcases. You can see these in [testcase.js](test/testcase.js)  
+However, this challenge has more 3 testcases. These are hidden.
 
-## 秘密のテスト
-この問題では７つのテストケースが示されていますが、実はそれ以外に隠された３つのテストが存在します。
+- Secret1. Pass '8' to this function, it should return collect answer.
+- Secret2. Pass '20' to this function, it should return collect answer.
+- Secret3. If the input number is '1000', how long length the result number is? Write the answer at the top line of [answer.md](answer.md). Also, explain how to solve this problem below.
 
-- Secret1. 入力値「8」に対して、出力を計算して正しい結果を返しなさい。
-- Secret2. 入力値「20」に対して、出力を計算して正しい結果を返しなさい。
-- Secret3. 入力値「1000」に対する結果の桁数をanswer.mdの一行目に記述しなさい。また二行目以降どのようにその結果を計算したかを文章で説明しなさい。
+If your function is implemented correctly, first 2 test will pass.
 
-最初の二つのテストはあなたの関数が正しく実装されていれば問題なくパスします。
-
-最後の問題は素直な実装では膨大な桁数に膨れ上がり計算できないでしょう。
-最適化する方法があるか考えてみてください。
+However, if your function is implemented very simple way, the last question eat all your memory.  
+Try to find some optimization.
