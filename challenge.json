@@ -1,0 +1,27 @@
+{
+  "editable": [
+    ".gitignore",
+    "package.json",
+    "answer.md",
+    "codecheck.yml"
+  ],
+  "ignores": [
+    "index.js"
+  ],
+  "allowNewFile": true,
+  "readme": {
+    "en":"README.md",
+    "ja": "README_ja.md"
+  },
+  "excludes": [
+    "challenge.json"
+  ],
+  "cli": [
+    "nodejs",
+    "ruby",
+    "java",
+    "go",
+    "python"
+  ],
+  "test": "mocha"
+}

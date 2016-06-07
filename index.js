@@ -24,9 +24,9 @@ function lookAndSay(n) {
   return ret.join("");
 }
 
-let count = parseInt(process.argv[2]);
+let count = parseInt(process.argv[2]) - 1;
 let seed = 1;
 for (let i=0; i<count; i++) {
   seed = lookAndSay(seed);
-  console.log((i + 1) + ": " + seed.length + ": " + seed);
 }
+console.log(seed);
