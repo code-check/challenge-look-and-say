@@ -16,15 +16,21 @@ Pass '3' to '7' returns following.
 ```
 
 Find the rule of this sequence and implement the function.
-(The result should be written to stdout.)
 
-You can use following languages.
+## How to implement
+You can use following languages to solve this challenge.
 
 - NodeJS
 - Ruby
 - Python3
 - Go
 - Java
+
+We want you to make it as a CLI application.  
+Input parameter will be passed as an argument of CLI.  
+Output should be written to stdout.
+
+How to make CLI application with selected language is written in [LANGUAGE].md
 
 ## Secret Test
 This challenge has 7 testcases. You can see these in [testcase.js](test/testcase.js)  
@@ -38,3 +44,7 @@ If your function is implemented correctly, first 2 test will pass.
 
 However, if your function is implemented very simple way, the last question eat all your memory.  
 Try to find some optimization.
+
+Note. 
+The secret tests will run on submitting challenge.
+These results are never shown on WebEditor.
