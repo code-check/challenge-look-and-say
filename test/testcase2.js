@@ -7,7 +7,7 @@ var fs = require("fs");
 describe("test", () => {
   var app = codecheck.consoleApp(process.env.APP_COMMAND);
 
-  it("8 -> 1", function() {
+  it("8 -> ...", function() {
     return app.run(8).spread(function(code, stdOut) {
       assert.equal(code, 0);
       assert.equal(stdOut.length, 1);
@@ -23,8 +23,9 @@ describe("test", () => {
     });
   });
 
-  it("answer.md", function() {
+  it("The length of 1000th number is ...", function() {
     var text = fs.readFileSync("./answer.md", "utf-8");
-    assert.equal(text.split("\n")[0], "I don't know");
+    var answer = text.split("\n")[0];
+    assert.equal(answer, "I don't know");
   });
 });
