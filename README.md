@@ -2,23 +2,22 @@
 
 This challenge is to make a function which returns a number according to some secret rule.
 
-Pass '1' to this function, it returns '1'.
-Pass '2' to this function, it returns '11'.
-
-Pass '3' to '7' returns following.
+If this function receives '1', it returns '1'.   
+If it receives '2', it returns '11'.  
+If it receives from '3'  to '7', it returns the following results, respectively,
 
 ```
-3=21
-4=1211
-5=111221
-6=312211
-7=13112221
+3 -> 21
+4 -> 1211
+5 -> 111221
+6 -> 312211
+7 -> 13112221
 ```
 
 Find the rule of this sequence and implement the function.
 
 ## How to implement
-You can use following languages to solve this challenge.
+You can use the following languages to solve this challenge.
 
 - NodeJS
 - Ruby
@@ -42,7 +41,7 @@ However, this challenge has more 3 testcases. These are hidden.
 
 If your function is implemented correctly, first 2 test will pass.
 
-However, if your function is implemented very simple way, the last question eat all your memory.  
+However, if your function is implemented in a very simple way, the last question eat all your memory.  
 Try to find some optimization.
 
 Note. 
