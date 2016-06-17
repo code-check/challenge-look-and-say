@@ -37,7 +37,7 @@ However, this challenge has more 3 testcases. These are hidden.
 
 - Secret1. Pass '8' to this function, it should return collect answer.
 - Secret2. Pass '20' to this function, it should return collect answer.
-- Secret3. If the input number is '1000', how long length the result number is? Write the answer at the top line of [answer.md](answer.md). Also, explain how to solve this problem below.
+- Secret3. If the input number is '10000', what is the first 500 digit of result? Write the answer at the top line of [answer.md](answer.md). Also, explain how to solve this problem below.
 
 If your function is implemented correctly, first 2 test will pass.
 
