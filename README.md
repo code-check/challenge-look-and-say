@@ -32,7 +32,7 @@ Output should be written to stdout.
 How to make CLI application with selected language is written in [LANGUAGE].md
 
 ## Secret Test
-This challenge has 7 testcases. You can see these in [testcase.js](test/testcase.js)  
+You can see 7 testcases in [testcase.js](test/testcase.js)  
 However, this challenge has more 3 testcases. These are hidden.
 
 - Secret1. Pass '8' to this function, it should return collect answer.
