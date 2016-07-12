@@ -7,6 +7,8 @@ If it receives '2', it returns '11'.
 If it receives from '3'  to '7', it returns the following results, respectively,
 
 ```
+1 -> 1
+2 -> 11
 3 -> 21
 4 -> 1211
 5 -> 111221
