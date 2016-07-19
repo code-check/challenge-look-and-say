@@ -43,7 +43,7 @@ However, this challenge has 3 additional hidden testcases:
 
 If your function is implemented correctly, the first 2 tests will pass.
 
-However, if your implementation is too earnest, the last question will eat up all of your memory! :c
+However, if your implementation is too earnest, the last question will eat up all of your memory! :(
 Try to find a way to optimize.
 
 PS:
