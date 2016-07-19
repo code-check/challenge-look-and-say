@@ -1,6 +1,6 @@
 # Look and Say!
 
-Make a function which returns a sequence of numbers according to the below.
+Create a function which returns a sequence of the numbers according to the rules below.
 
 If this function receives '1', it should return '1'.   
 If it receives '2', it should return '11'.  
