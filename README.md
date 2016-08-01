@@ -1,5 +1,7 @@
 # Look and Say!
 
+*This is a [codecheck](https://app.code-check.io/openchallenges) challenge. To get started, [see the docs](https://code-check.github.io/docs/en)* :-)  
+
 The look and say method is a secret method that returns the below results:
 
 If this method receives '1', it should return '1'.
