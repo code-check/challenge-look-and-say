@@ -31,6 +31,7 @@ You can use the following languages to solve this challenge.
 
 - NodeJS
 - Ruby
+- Python (2.x)
 - Python3
 - Go
 - Java

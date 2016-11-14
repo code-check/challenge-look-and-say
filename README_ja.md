@@ -30,6 +30,7 @@
 
 - NodeJS
 - Ruby
+- Python (2.x)
 - Python3
 - Go
 - Java
