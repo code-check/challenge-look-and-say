@@ -15,7 +15,8 @@
   },
   "excludes": [
     "challenge.json",
-    "testcase2.js"
+    "secretTests.js",
+    "secretCases.json"
   ],
   "cli": [
     "nodejs",
