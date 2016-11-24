@@ -22,7 +22,7 @@ If it receives '3', it should return '21', and so on.
 Identify the rule of this sequence and implement the function.
 
 ## Implementation
-###### CLI
+##### CLI
 Build the solution as a CLI application.  
 Input parameters will be passed as an argument of CLI, and
 the output should be written to stdout.
@@ -38,7 +38,7 @@ You can use the following languages to solve this challenge.
 
 How to make a CLI application with each language is explained in [YOUR LANGUAGE].md
 
-###### Secret Test
+##### Secret Test
 You can see 7 testcases in [testcase.js](test/testcase.js).
 However, this challenge has 3 additional hidden testcases:
 
