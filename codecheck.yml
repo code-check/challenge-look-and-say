@@ -1,2 +1,3 @@
-env:
+environment:
   APP_COMMAND: node index.js
+test: mocha
