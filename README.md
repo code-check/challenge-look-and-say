@@ -26,16 +26,6 @@ Identify the rule of this sequence and implement the function.
 Build the solution as a CLI application.  
 Input parameters will be passed as an argument of CLI, and
 the output should be written to stdout.
-
-You can use the following languages to solve this challenge.
-
-- NodeJS
-- Ruby
-- Python (2.x)
-- Python3
-- Go
-- Java
-
 How to make a CLI application with each language is explained in [YOUR LANGUAGE].md
 
 ##### Secret Test
