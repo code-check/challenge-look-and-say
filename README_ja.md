@@ -1,6 +1,6 @@
 # Look and Say!
 
-*これは[codecheck](http://app.code-check.io/openchallenges)のチャレンジだよ。 始めてみるには[ドキュを見てね](https://code-check.github.io/docs/ja)* ^^  
+*これは[codecheck](http://app.code-check.io/openchallenges)のチャレンジです。 始めるにはまず[ドキュメンテーション](https://code-check.github.io/docs/ja)を見てね。*^^  
 
 ある秘密の規則にそった数列を生成する関数が存在します。
 
