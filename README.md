@@ -34,7 +34,7 @@ However, this challenge has 3 additional hidden testcases:
 
 - SecretTest1. Passes an integer of '8', and expects a correct answer.
 - SecretTest2. Passes an integer of '20', and expects a correct answer.
-- SecretTest3. Passes an integer of '10000'. Find the initial 500 digits of the expected output, and write this in the first line of [answer.md](answer.md). Explain how you solved the problem beginning from line 2.
+- SecretTest3. Passes an integer of '10000'. Find the initial 500 digits of the expected output, and write this in the first line of [longOutput.txt](longOutput.txt).
 
 If your function is implemented correctly, the first 2 tests will pass.
 
@@ -47,7 +47,7 @@ and the results are never shown in the WebEditor.
 
 ## Answer.md
 In [answer.md](answer.md) write a brief explanation about:
-- The output for SecretTest3
+
 - How your code works
 - Problems faced while solving the challenge
 - How you solved those problems
