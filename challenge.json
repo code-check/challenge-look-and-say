@@ -3,7 +3,8 @@
     ".gitignore",
     "package.json",
     "answer.md",
-    "codecheck.yml"
+    "codecheck.yml",
+    "longOutput.txt"
   ],
   "ignores": [
     "main.*",
