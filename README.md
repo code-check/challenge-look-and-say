@@ -1,12 +1,14 @@
 # Look and Say!
 
-*This is a [codecheck](https://app.code-check.io/openchallenges) challenge. To get started, [see the docs](https://code-check.github.io/docs/en)* :-)  
+*これは[codecheck](https://code-check.io/)のチャレンジです。  
+初めての方はまず[ドキュメンテーション](https://code-check.github.io/docs/ja)を一読ください。*
 
-The look and say method is a secret method that returns the below results:
+ある秘密の規則にそった数列を生成する関数が存在します。
 
-If this method receives '1', it should return '1'.
-If it receives '2', it should return '11'.  
-If it receives '3', it should return '21', and so on.
+この関数に1を渡すと、結果として「1」が返されます。
+この関数に2を渡すと、結果として「11」が返されます。
+以下、7までの入力に対する結果は以下の通りです。
+
 ```
 1 -> 1
 2 -> 11
@@ -17,37 +19,35 @@ If it receives '3', it should return '21', and so on.
 7 -> 13112221
 ```
 
-## Your Mission
+## ザ・ミッション
 
-Identify the rule of this sequence and implement the function.
+この数列の生成ルールを見つけ、その値を返す関数を実装し、その結果を標準出力に出力してください。
 
-## Implementation
-##### CLI
-Build the solution as a CLI application.  
-Input parameters will be passed as an argument of CLI, and
-the output should be written to stdout.
-How to make a CLI application with each language is explained in [YOUR LANGUAGE].md
+## 実装の詳細
 
-##### Secret Test
-You can see 7 testcases in [testcase.js](test/testcase.js).
-However, this challenge has 3 additional hidden testcases:
+#### CLI
+入力値を引数に取り、結果を標準出力に出力するCLIアプリケーションとして解答を実装してください。
+CLIの実装方法については[指定言語].mdを参照ください。
 
-- SecretTest1. Passes an integer of '8', and expects a correct answer.
-- SecretTest2. Passes an integer of '20', and expects a correct answer.
-- SecretTest3. Passes an integer of '10000'. Find the initial 500 digits of the expected output, and write this in the first line of [longOutput.txt](longOutput.txt).
+#### 秘密のテスト
+この問題では７つのテストケースが示されていますが、実はそれ以外に隠された３つのテストが存在します。
 
-If your function is implemented correctly, the first 2 tests will pass.
+- SecretTest1. 入力値「8」に対して、出力を計算して正しい結果を返しなさい。
+- SecretTest2. 入力値「20」に対して、出力を計算して正しい結果を返しなさい。
+- SecretTest3. 入力値「10000」に対する結果の最初の500桁をlongOutput.txtの一行目に記述しなさい。
 
-However, if your implementation is too earnest, the last question will eat up all of your memory! :(
-Try to find a way to optimize.
+最初の二つのテストはあなたの関数が正しく実装されていれば問題なくパスします。
 
-PS:
-The secret tests will run only when the challenge is submitted,
-and the results are never shown in the WebEditor.
+最後の問題は素直な実装では膨大な桁数に膨れ上がり計算できないでしょう。
+最適化する方法があるか考えてみてください。
+
+※ 秘密のテストはチャレンジ提出時にのみ実行されWebEditor上では確認できません。
 
 ## Answer.md
-In [answer.md](answer.md) write a brief explanation about:
+[answer.md](./answer.md)を用意してあるので、その中に
 
-- How your code works
-- Problems faced while solving the challenge
-- How you solved those problems
+- どのように実装したか、工夫した点は何か
+- 発生した問題、難しかった箇所
+- それをどのようにして対処したのか
+
+等を書いてください。
