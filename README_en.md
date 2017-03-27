@@ -1,8 +1,8 @@
-# Look and Say!
+# The Secret Rule
 
 *This is a [codecheck](https://app.code-check.io/openchallenges) challenge. To get started, [see the docs](https://code-check.github.io/docs/en)* :-)  
 
-The look and say method is a secret method that returns the below results:
+There is a secret method that returns the below results:
 
 If this method receives '1', it should return '1'.
 If it receives '2', it should return '11'.  
@@ -28,21 +28,28 @@ Input parameters will be passed as an argument of CLI, and
 the output should be written to stdout.
 How to make a CLI application with each language is explained in [YOUR LANGUAGE].md
 
-#### Secret Test
-You can see 7 testcases in [testcase.js](test/testcase.js).
-However, this challenge has 3 additional hidden testcases:
+#### Rules
+- This CLI app will receive only 1 arg consisting of an integer.
+- The CLI app will never receive incorrect parameters.
+- Process the integer based on the secret rule, and output the result in integer form to stdout.
+- You are permitted to search online for the secret sequence.
+- You may not use an external library for this challenge.
 
-- SecretTest1. Passes an integer of '8', and expects a correct answer.
-- SecretTest2. Passes an integer of '20', and expects a correct answer.
-- SecretTest3. Passes an integer of '10000'. Find the initial 500 digits of the expected output, and write this in the first line of [longOutput.txt](longOutput.txt).
+#### Sample I/O
+```shell
+$ secret_rule 2
+11
+```
 
-If your function is implemented correctly, the first 2 tests will pass.
+For reference, some of the expected I/O can be seen in the [test/](./test/) directory.
 
-However, if your implementation is too earnest, the last question will eat up all of your memory! :(
+#### More Homework!
+As an additional task, find the initial 500 digits of the expected output, when the input is an integer of '10000'. Write this in the first line of [longOutput.txt](longOutput.txt).
+If your implementation is too earnest, the last question will eat up all of your memory! :(
 Try to find a way to optimize.
 
 PS:
-The secret tests will run only when the challenge is submitted,
+This secret test will run only when the challenge is submitted,
 and the results are never shown in the WebEditor.
 
 ## Answer.md
