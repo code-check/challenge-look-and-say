@@ -3,27 +3,43 @@
     ".gitignore",
     "package.json",
     "answer.md",
-    "codecheck.yml"
+    "codecheck.yml",
+    "longOutput.txt"
   ],
   "ignores": [
-    "index.js"
+    "main.*",
+    "INSPECTION*",
+    "PULL_REQUEST_TEMPLATE.md"
   ],
-  "allowNewFile": true,
   "readme": {
     "en":"README.md",
     "ja": "README_ja.md"
   },
   "excludes": [
-    "challenge.json",
-    "secretTests.js"
+    "*secret*",
+    "challenge.json"
+  ],
+  "readme": {
+    "ja": "README.md",
+    "en": "README_en.md"
+  },
+  "tags": [
+    "プリセット",
+    "プログラミング技術",
+    "推理力"
   ],
   "cli": [
-    "nodejs",
-    "ruby",
-    "java",
-    "go",
-    "python",
-    "python3"
+    "C/C++",
+    "C#",
+    "Go",
+    "Java",
+    "NodeJS",
+    "PHP",
+    "Python",
+    "Python3",
+    "Ruby",
+    "Scala"
   ],
+  "allowNewFile": true,
   "test": "mocha"
 }
