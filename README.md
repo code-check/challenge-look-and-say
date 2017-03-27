@@ -1,4 +1,4 @@
-# 秘密の規則
+# 秘密のルールを見つけ出せ！
 
 *これは[codecheck](https://code-check.io/)のチャレンジです。  
 初めての方はまず[ドキュメンテーション](https://code-check.github.io/docs/ja)を一読ください。*
