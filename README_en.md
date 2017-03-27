@@ -1,4 +1,4 @@
-# The Secret Rule
+# Find the Secret Rule!
 
 *This is a [codecheck](https://app.code-check.io/openchallenges) challenge. To get started, [see the docs](https://code-check.github.io/docs/en)* :-)  
 
