@@ -3,7 +3,7 @@
 const assert = require("chai").assert;
 const codecheck = require("codecheck");
 
-describe("jsontest", () => {
+describe("json test", () => {
   const app = codecheck.consoleApp(process.env.APP_COMMAND);
   const cases = require('./cases.json');
 

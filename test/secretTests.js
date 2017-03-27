@@ -4,7 +4,7 @@ const assert = require("chai").assert;
 const codecheck = require("codecheck");
 var fs = require("fs");
 
-describe("test", () => {
+describe("secret test", () => {
   var app = codecheck.consoleApp(process.env.APP_COMMAND);
 
   it("8 -> ...", function() {
