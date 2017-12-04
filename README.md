@@ -1,7 +1,7 @@
 # 秘密のルールを見つけ出せ！
 
 *これは[codecheck](https://code-check.io/)のチャレンジです。  
-初めての方はまず[ドキュメンテーション](https://code-check.github.io/docs/ja)を一読ください。*
+初めての方はまず[チュートリアル](https://app.code-check.io/orgs/codecheck/challenges/77)をご覧ください。*
 
 ある秘密の規則にそった数列を生成する関数が存在します。
 
