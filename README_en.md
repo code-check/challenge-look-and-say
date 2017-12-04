@@ -1,6 +1,7 @@
 # Find the Secret Rule!
 
-*This is a [codecheck](https://app.code-check.io/openchallenges) challenge. To get started, [see the docs](https://code-check.github.io/docs/en)* :-)  
+*This is a codecheck challenge.  
+If this is your first time, [check out the tutorial](https://app.code-check.io/orgs/codecheck/challenges/77)* :-)  
 
 There is a secret method that returns the below results:
 
