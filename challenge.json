@@ -1,0 +1,25 @@
+{
+  "editable": [
+    ".gitignore",
+    "answer.md",
+    "codecheck.yml"
+  ],
+  "ignores": [ ],
+  "readme": {
+    "ja": "README.md"
+  },
+  "includes" : [
+    "main.py",
+  ],
+  "excludes": [
+    "test/test_private.py",
+    "challenge.json"
+  ],
+  "cli": [
+    "C/C++",
+    "Java",
+    "Python"
+  ],
+  "allowNewFile": true,
+  "test": "nosetests"
+}

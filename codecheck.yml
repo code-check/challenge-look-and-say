@@ -1,0 +1,3 @@
+environment:
+  APP_COMMAND: python main.py
+test: nosetests
