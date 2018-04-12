@@ -4,16 +4,13 @@
     "answer.md",
     "codecheck.yml"
   ],
-  "ignores": [
-    "input/create_problems.py"
-  ],
+  "ignores": [ ],
   "readme": {
     "ja": "README.md"
   },
   "excludes": [
     "main.py",
     "test/test_private.py",
-    "test_*.txt",
     "challenge.json"
   ],
   "cli": [
@@ -22,5 +19,5 @@
     "Python"
   ],
   "allowNewFile": true,
-  "test": "nosetests"
+  "test": "python -m nose"
 }

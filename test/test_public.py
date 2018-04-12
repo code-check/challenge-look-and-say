@@ -4,12 +4,8 @@ app = os.environ['APP_COMMAND']
 
 def test_sample1():
     '''Test sample 1'''
-    assert(1 == int(subprocess.check_output(shlex.split(app) + ['./input/sample1.txt'])))
+    assert(8 == int(subprocess.check_output(shlex.split(app) + ['2'])))
 
 def test_sample2():
     '''Test sample 2'''
-    assert(3 == int(subprocess.check_output(shlex.split(app) + ['./input/sample2.txt'])))
-
-def test_sample3():
-    '''Test sample 3'''
-    assert(20000 == int(subprocess.check_output(shlex.split(app) + ['./input/sample3.txt'])))
+    assert(8646911284551352320 == int(subprocess.check_output(shlex.split(app) + ['30'])))
