@@ -1,5 +1,7 @@
-import sys
+import glob, os, shlex, subprocess, sys
 from operator import itemgetter
+
+app = os.environ['APP_COMMAND']
 
 def main(filename):
     segments = []
@@ -18,6 +20,17 @@ def main(filename):
                 break
         else:
             ret.append(list(seg))
-    print max(map(lambda r: r[1] - r[0], ret))
+    return max(map(lambda r: r[1] - r[0], ret))
 
-main(sys.argv[1])
+def check(prob):
+    assert main(prob) == int(subprocess.check_output(shlex.split(app) + [prob]))
+
+def random_test():
+    '''Random test'''
+    for prob in glob.glob('./input/test_*.txt'):
+        yield check, prob
+
+def test_bridge():
+    '''Bridge test'''
+    prob = './input/bridge.txt'
+    assert main(prob) == int(subprocess.check_output(shlex.split(app) + [prob]))

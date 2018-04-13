@@ -1,45 +1,26 @@
 {
   "editable": [
     ".gitignore",
-    "package.json",
     "answer.md",
-    "codecheck.yml",
-    "longOutput.txt"
+    "codecheck.yml"
   ],
   "ignores": [
-    "main.*",
-    "INSPECTION*",
-    "PULL_REQUEST_TEMPLATE.md"
+    "input/create_problems.py"
   ],
   "readme": {
-    "en":"README.md",
-    "ja": "README_ja.md"
+    "ja": "README.md"
   },
   "excludes": [
-    "*secret*",
+    "main.py",
+    "test/test_private.py",
+    "test_*.txt",
     "challenge.json"
-  ],
-  "readme": {
-    "ja": "README.md",
-    "en": "README_en.md"
-  },
-  "tags": [
-    "プリセット",
-    "プログラミング技術",
-    "推理力"
   ],
   "cli": [
     "C/C++",
-    "C#",
-    "Go",
     "Java",
-    "NodeJS",
-    "PHP",
-    "Python",
-    "Python3",
-    "Ruby",
-    "Scala"
+    "Python"
   ],
   "allowNewFile": true,
-  "test": "mocha"
+  "test": "nosetests"
 }
