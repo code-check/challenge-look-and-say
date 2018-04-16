@@ -2,7 +2,8 @@
   "editable": [
     ".gitignore",
     "answer.md",
-    "codecheck.yml"
+    "codecheck.yml",
+    "test/test_public1.py"
   ],
   "ignores": [ ],
   "readme": {
