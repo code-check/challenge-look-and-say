@@ -10,5 +10,5 @@ def check(prob):
 
 def random_test():
     '''Random test'''
-    for prob in xrange(1,31):
+    for prob in range(1,31):
         yield check, '{}'.format(prob)
