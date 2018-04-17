@@ -4,7 +4,8 @@
     "answer.md",
     "codecheck.yml",
     "test/test_public.py",
-    "test/test_public1.py"
+    "test/test_public1.py",
+    "challenge.json"
   ],
   "ignores": [ ],
   "readme": {
@@ -12,8 +13,7 @@
   },
   "excludes": [
     "main.py",
-    "test/test_private.py",
-    "challenge.json"
+    "test/test_private.py"
   ],
   "cli": [
     "C/C++",
